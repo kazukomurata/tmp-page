@@ -3,8 +3,8 @@ const div = document.getElementById('myDiv');
 
 // 2. リンク要素を作成
 const link = document.createElement('a');
-link.href = 'https://example.com'; // リンク先
-link.textContent = 'Visit Example.com'; // 表示テキスト
+link.href = '/test/'; // リンク先
+link.textContent = 'Visit Test'; // 表示テキスト
 link.target = '_blank'; // 新しいタブで開く
 
 // 3. リンクをdivに追加
